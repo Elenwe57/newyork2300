@@ -51,7 +51,7 @@
 #chatbox .cb_delete_msg, #chatbox .date-and-time {color: var(--contrast)!important;}
 
 /***PA***/
-.NY_pa {display: grid;grid-template-columns: 200px 262px 160px 210px;grid-template-rows: 110px 116px 74px;grid-column-gap: 10px;grid-row-gap: 0;background: var(--contrastLight);padding: 15px;}
+.NY_pa {display: grid;grid-template-columns: 195px 262px 160px 195px;grid-template-rows: 110px 116px 74px;grid-column-gap: 10px;grid-row-gap: 0;background: var(--contrastLight);padding: 15px;}
 .NY_pa select {background: var(--accentClrDark);border: var(--border);font-size: var(--little-size);padding: 8px 10px;color: var(--textColorAccent);width: 210px !important;}
 .NY_pa_title{display: block;text-align: center;text-transform: uppercase;font-size: 27px;font-weight: 500;padding: 19px 0 25px;height: 80px;
   background: url(https://i.servimg.com/u/f81/17/65/68/70/fond_c10.png);font-family: Cinzel;color: var(--textColorAccent);letter-spacing: 13px;}
@@ -60,7 +60,7 @@
 .div3 { grid-area: 1 / 2 / 4 / 3; }
 .div4 { grid-area: 1 / 3 / 3 / 4; }
 .div6 { grid-area: 1 / 4 / 2 / 5; }
-.div6 img {object-fit: cover;outline-offset: 2px;width: 38px;height: 38px;margin: 3px 0 0 11px;outline: rgb(78, 104, 111) solid 1px;transition: 800ms;}
+.div6 img {object-fit: cover;outline-offset: 2px;width: 36px;height: 36px;margin: 3px 0 0 11px;outline: rgb(78, 104, 111) solid 1px;transition: 800ms;}
 .div7 { grid-area: 2 / 4 / 3 / 5; }
 .div8 { grid-area: 3 / 4 / 4 / 5; }
 .link_pa {background-color: var(--accentClrDark);border-radius: 4px;font-size: 10px;font-weight: 400;display: inline-block;text-align: center;margin: 0 0 4px 9px;transition: .3s ease;
