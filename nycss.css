@@ -97,14 +97,6 @@ span.absent {color: red;font-weight: bold;}
 /*** ------------------------------- ***/
 /*** TOUTES LES PAGES --------------- ***/
 
-/* FOND DU FORUM ---*/
-body {
-  background-color: var(--neutralDark)!important;height: auto;
-  font-family: var(--font);
-  font-size: var(--normal-size);
-  color: var(--textColor);
-  margin: 0 !important;
-}
 
 /* SCROLLBAR --- */
 /* Scrollbar entière */
@@ -115,28 +107,6 @@ body {
 
 /* Poignée */
 ::-webkit-scrollbar-thumb {}
-
-/* STRUCTURE PRINCIPALE ---*/
-.main_forum {
-  width: 940px;
-  /*largeur forum*/
-  margin: 20px auto;
-  padding: 20px;
-  background: var(--neutral);
-}
-
-/* BANNIERE ---*/
-/* Mettre la bannière en fond permet de la changer selon le thème clair ou sombre */
-#header {
-  background-image: var(--header);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  width: 900px;
-  height: 330px;
-  display: block;
-  margin-top: 20px;
-}
 
 /* Conteneur de toutes les sous-sections
  * comme les encadrés d'options, de rappel, etc... */
