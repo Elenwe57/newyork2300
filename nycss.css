@@ -1002,57 +1002,6 @@ a.specials_links:empty {
   background: var(--contrastLight);
 }
 
-/*** ------------------------------- ***/
-/*** BARRE DE NAVIGATION ----------- ***/
-
-/* Conteneur de la barre de nav */
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 1150px;
-    z-index: 997;
-    background: var(--neutralDark);
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar li {
-    display: inline-block;
-    margin: 0px;
-}
-
-/* Suppression des liens peu utilisés*/
-.navbar a[href^="/faq"],
-/*faq*/
-.navbar a[href^="/calendar"],
-/*calendrier*/
-.navbar a[href^="/groups"],
-/*groupes*/
-.navbar a[href^="/images"]
-
-/*Dernières images*/
-  {
-  display: none;
-}
-
-/* liens de navigation */
-a.mainmenu {
-  padding: 5px;
-}
-
-/* Lien navigation au survol*/
-a.mainmenu:hover {
-  background: var(--neutral);
-}
-
-/* Image des liens */
-a.mainmenu img {
-  display: none;
-}
 
 /*** ------------------------------- ***/
 /*** ANNONCES DEFILANTES ----------- ***/
