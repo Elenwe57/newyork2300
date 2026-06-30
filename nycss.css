@@ -1383,7 +1383,7 @@ background: var(--neutralDark);
 .topic-actions.bottom .topic-actions-buttons{font-size:10px}
 .systab { margin-top: 8px;}
 .systab .contents {    color: var(--textColor);font-weight: bold;background: var(--contrast);padding: 8px;height: 120px;overflow: auto;opacity: .8;width: 200px;margin: 5px auto 0;}
-.label { font-weight: bold; font-family: 'Cinzel';}
+.label { font-weight: bold; font-family: 'Cinzel';color:var(--contrastLight)!important}
 .ANOcorpsmess_blocavaong .infos-posteur { margin-bottom: 5px; border-bottom: 1px solid #0000001a; padding-bottom: 5px;font-size: 11px;text-align: left;font-weight: normal !important;}
 .systab .tab.selected {color: var(--contrastLighter);font-weight: bold;background: var(--contrast);padding-bottom: 4px;opacity: 1;}
 .systab .tab {padding: 4px 12px 4px 12px;color: var(--textColor);background: var(--neutralDarker);cursor: pointer;transition: .75s;font-size: 12px;font-family: 'cinzel', serif;letter-spacing: 1px;opacity: .6;}
