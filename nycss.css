@@ -1456,7 +1456,7 @@ dl.codebox:before{display:none}
 .profile_label {padding-right: 3px;font-weight: bold;color:var(--contrast);width: 140px;}
 .qyprofile_c2 {width: 27%;text-align: center;}
 .qyprofile_c3 {width: 36%;font-size: 13px;}
-#field_id1 {display: none;}
+#field_id-11 {display: none;}
 #field_id-20, #field_id7 {display: block;}
 #field_id-20 .field_uneditable {background: var(--neutral);margin-left: 45px;padding: 10px;margin-top: 5px;height: 100px;overflow: auto;}
 .nbniveau {position: relative;transition:0.2s;width: 50px;height: 53px;background: #4e597a;line-height: 57.73px;color: #fff !important;opacity: 1;font-weight: 700;clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);margin: -8px auto 0 auto;}
