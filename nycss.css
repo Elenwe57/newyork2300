@@ -1475,7 +1475,7 @@ a.forumtitle:hover {
     color: var(--contrast);opacity: 0.9;margin-right: -7px;}
 .qeelny_welcome { grid-area: 3 / 2 / 4 / 3; }
 #last_user img {width: 60px;}
-#last_user {display: flex;align-items: center;justify-content: flex-start;padding: 5px;background: var(--textColorAccent);margin: 5px 0 10px 0px;margin-left: -25px;}
+#last_user {display: flex;align-items: center;justify-content: flex-start;padding: 5px;background: var(--textColorAccent);margin: 5px 0 10px 0px;margin-left: -25px;height:112px}
 #lastuser_avatar {margin:2px 0 -2px 0}
 #newest_user {width: 370px;text-align: center;font-size: 29px;font-family: 'Cinzel';}
 .bienvenuea {font-size: 19px;margin-bottom: -8px;color: var(--accentClrDark);font-weight: bold;}
