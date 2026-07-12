@@ -1786,7 +1786,7 @@ dl.codebox:before{display:none}
     align-items: center;
     justify-content: center;
     padding: 4px 8px;
-    border: 1px solid var(--contrastLighter)
+    border: 1px solid var(--contrastLighter);
     background: var(--contrast);
     opacity: 0.7;
     color: var(--accentClrDark);
