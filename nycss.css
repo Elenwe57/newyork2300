@@ -72,6 +72,10 @@
 
 /*** ------------------------------- ***/
 /*** EDITION DE PROFIL ------------- ***/
+
+dl.profile-dl-20 dd {
+    display: flex;
+}
 .content h2, .panel h2 {
     border: none !important;
     color: var(--textColorAccent);
