@@ -353,7 +353,7 @@ div#tabs li:nth-child(5) {
 }
 
 /**PRESENTATION**/
-.nyprez {padding: 10px;background: var(--accentClrDark);color: var(--neutral);}
+.nyprez {padding: 10px;background: var(--accentClrDark);color: var(--neutral);width: 600px;margin:auto}
 .titleprez {color: var(--contrast);text-align: center;font-family: 'Cinzel';font-size: 30px;padding: 20px;}
 .infoprez {
     text-align: center;
@@ -390,7 +390,8 @@ div#tabs li:nth-child(5) {
     padding: 10px;
     font-family: 'Cinzel';
     margin: 30px 0 0 0;
-    color: var(--accentClrDark);
+    border: none !important;
+    color: var(--accentClrDark) !important;
 }
 
 /**CB**/
