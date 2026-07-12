@@ -1780,6 +1780,11 @@ dl.codebox:before{display:none}
 .nx-postbuttons {display: flex;justify-content: space-around;align-items: center;margin-bottom: 26px;}
 .nx-postbuttons a:hover {background: var(--accentClr);color: var(--contrastLight);transition: .2s;}
 
+.ANOcorpsmess_blocavaong_ava{position:relative}
+.nx-postgenres {position: absolute;right: 5px;padding: 2px;bottom: 0px;z-index: 5;display: flex;align-items: center;background: var(--contrast);gap: 4px;}
+.nx-separator{font-size:21px;font-weight:600;color:var(--textColor);line-height:1;}
+.nx-postgenres img{display:block; width: 20px;height: 20px;}
+
 .resumepersonnagepost .resume-label {font-family: 'Cinzel';color: var(--contrastLighter);cursor: pointer;}
 .resumepersonnagepost {background: var(--contrast);margin: 10px 5px;padding: 5px;border: 1px solid var(--neutralDark)}
 .resume-content {margin-top: 15px;background: var(--neutral);padding: 5px;text-align: justify;}
