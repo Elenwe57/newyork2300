@@ -1776,7 +1776,7 @@ input[type="submit"]:hover, .button:hover, .button1:hover, .button2:hover { back
 dl.codebox:before{display:none}
 .lienssubj div {background: var(--contrast);margin: 10px 5px;padding: 5px;border: 1px solid #f8d5da54;transition:.2s;color: var(--neutralDark);font-family: 'Cinzel';font-size: 13px;}
 .lienssubj div:hover {transition: .2s;background: var(--neutral);color: var(contrastLight);}
-.nx-postbuttons a {background: var(--contrast);padding: 5px;font-family: 'Cinzel';color: var(--accentClrDark);transition: .2s;}
+.nx-postbuttons a {background: var(--contrast);padding: 5px 29px;font-family: 'Cinzel';color: var(--accentClrDark);transition: .2s;border: 1px solid #f8d5da54;}
 .nx-postbuttons {display: flex;justify-content: space-around;align-items: center;margin-bottom: 26px;}
 .nx-postbuttons a:hover {background: var(--accentClr);color: var(--contrastLight);transition: .2s;}
 
