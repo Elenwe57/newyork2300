@@ -1724,7 +1724,7 @@ background: var(--neutralDark);
 .ANOcorpsmess_blocavaong { width: 220px;text-align: center;background:var(--neutralDark);border: 1px solid var(--contrast);margin-left: -1px;}
 .ANOcorpsmess_blocavaong_ava { width: 210px; padding: 5px;background:var(--neutralDark);margin: 5px auto 0;}
 .ANOcorpsmess_blocavaong_ava img { height: 320px; width: 200px;}
-.ANOcorpsmess_ban_infos { font-family: 'Cinzel'; font-size: 55px; padding: 37px 10px 10px 20px; text-shadow: 1px 1px 2px #151515;}
+.ANOcorpsmess_ban_infos { font-family: 'Cinzel'; font-size: 55px; padding: 37px 10px 10px 20px; text-shadow: 1px 1px 2px #151515; display:flex;justify-content: space-between;}
 .ANOcorpsmess_ban_infos a {font-weight: 500;}
 .ANOcorpsmess_ban_ssinfos {line-height: 2;font-weight: 700; color:var(--textColor); margin: -5px auto 0; width: 200px; font-family: cinzel; font-size: 15px; background: var(--contrast); cursor: default;}
 .ANOcorpsmess_blocmess_linesup {display: flex;justify-content: space-between;background: var(--contrast);padding: 10px;border-bottom: 2px solid var(--neutralDark);color: var(--textColor);font-size: 11.5px;}
@@ -1779,6 +1779,30 @@ dl.codebox:before{display:none}
 .nx-postbuttons a {background: var(--contrast);padding: 5px 29px;font-family: 'Cinzel';color: var(--accentClrDark);transition: .2s;border: 1px solid #f8d5da54;}
 .nx-postbuttons {display: flex;justify-content: space-around;align-items: center;margin-bottom: 26px;}
 .nx-postbuttons a:hover {background: var(--accentClr);color: var(--contrastLight);transition: .2s;}
+
+.nx-nexusbadge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    border: 1px solid var(--contrastLighter)
+    background: var(--contrast);
+    opacity: 0.7;
+    color: var(--accentClrDark);
+}
+
+.nx-nexusbadge span {
+    font-size: 8px;
+    letter-spacing: 1.7px;
+    font-family: 'Cinzel';
+    padding-bottom: 5px;
+}
+
+.nx-nexusbadge strong{
+  font-size:25px;
+  line-height:1;
+}
 
 .ANOcorpsmess_blocavaong_ava{position:relative}
 .nx-postgenres {position: absolute;right: 5px;padding: 2px;bottom: 0px;z-index: 5;display: flex;align-items: center;background: var(--contrast);gap: 4px;}
